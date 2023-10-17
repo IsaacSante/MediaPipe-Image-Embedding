@@ -2,6 +2,12 @@
 venv/
 ENV/
 
+# Ignore everything inside the images folder
+/images/*
+
+# But un-ignore the example.txt file inside the images folder
+!/images/example.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
