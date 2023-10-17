@@ -2,11 +2,14 @@
 venv/
 ENV/
 
-# Ignore everything inside the images folder
+# Ignore everything inside these folders
 /images/*
+/models/*
 
-# But un-ignore the example.txt file inside the images folder
+# But un-ignore the example.txt file inside these folders
 !/images/example.txt
+!/models/example.txt
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
